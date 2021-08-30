@@ -23,7 +23,7 @@ font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 */
 
 /* VARIÁVEIS */
-:root{}
+/* :root{} */
 /* VARIÁVEIS */
   
   
@@ -39,28 +39,115 @@ html, body, figure, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, a{
 /* GERAL */
   
 /* HTML */
-html{}
+html{
+    background-color: rgb(255, 255, 255);
+}
 /* HTML */
   
 /* BODY */
-body{}
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
 /* BODY */
   
 
 /* HEADER */
-header{}
+header{
+    background-color: rgb(248, 244, 244);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header figure{
+    width: 220px;
+    margin: 10px 30px;
+}
+header figure .logo{
+    width: 100%;
+    height: auto;
+}
+
+header nav{
+    /* background-color: cornflowerblue; */
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+header nav .nav--menu{
+    display: inline-flex;
+}
+
+nav .nav--menu li{
+    padding: 0 50px;
+}
+
+
+/* INICIAL */
+main .bg--image{
+    width: 100%;
+    height: calc(100vh - 100px);
+    object-fit: cover;
+    background-position: center;
+}
+
+
+
 /* HEADER */
+
+
+
+
+section div{
+    max-width: 60vw;
+    max-height: 60vh;
+    overflow: hidden;
+    padding: 40px;
+}
+section div img{
+    height: 60vh;
+    width: 100%;
+}
+
+
+
+
+
+section.cards--container{
+    display: flex;
+    flex-flow: row nowrap;
+    max-height: 60vh;
+    width: 100vw;
+}
+
+section.cards--container .card--item{
+
+}
+
+  
+
+
+
+  
+
+/* INICIAL */
   
 
 /* FOOTER */
-footer{}
+footer{
+    background-color: #ccc;
+    text-align: center;
+}
+footer .footer--nav{
+    display: inline-flex;
+    padding: 50px;
+}
+footer .footer--nav li{
+    padding: 0px 50px;
+}
 /* FOOTER */
-
-  
-/* INICIAL */
-main{}
-/* INICIAL */
-  
 
 /* EXTRAS */
 
