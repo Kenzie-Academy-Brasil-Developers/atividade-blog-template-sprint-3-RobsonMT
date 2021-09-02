@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog template</title>
-
+    <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
 </head>
@@ -16,11 +16,11 @@
         </figure>
         <nav>
             <ul class="nav--menu">
-                <li>Home</li>
-                <li>Categorias</li>
-                <li>Mais vistos</li>
-                <li>Tags</li>
-                <li>Contatos</li>
+                <li><a href="#Home">inicio</a></li>
+                <li><a href="#2">Categorias</a></li>
+                <li><a href="#3">Mais vistos</a></li>
+                <li><a href="#4">Tags</a></li>
+                <li><a href="#5">Contatos</a></li>
             </ul>
         </nav>
         <span>
@@ -33,12 +33,12 @@
             <div id="menu-area">
                 <ul class="menu-area--list">
                     <li><img src="./assets/img/icons/close.svg" class="back" onclick="openMenu()"></li>
-                    <li><a href="#"></a>existinng</li>
-                    <li><a href="#"></a>use</li>
-                    <li><a href="#"></a>trade</li>
-                    <li><a href="#"></a>cybertruck</li>
-                    <li><a href="#"></a>roadster</li>
-                    <li><a href="#"></a>semi</li>
+                    <li><a href="#"></a>inicio</li>
+                    <li><a href="#"></a>categorias</li>
+                    <li><a href="#"></a>mais visitados</li>
+                    <li><a href="#"></a>tags</li>
+                    <li><a href="#"></a>titulos</li>
+                    <li><a href="#"></a>contatos</li>
                 </ul>
             </div>
         </aside> 
@@ -48,7 +48,7 @@
         <section class="c-wrapper--item container--banner">
             <div class="banner--item">
                 <figure class="banner--img--area">
-                    <img src="./assets/img/pic2.jpg" alt="paiagem">
+                    <img src="./assets/img/pic1.jpg" alt="paiagem">
                 </figure>
                 <figcaption class="banner--description">
                     <h3>Lorem ipsum dolor sit amet</h3>
@@ -57,7 +57,7 @@
             </div>
             <div class="banner--item">
                 <figure class="banner--img--area">
-                    <img src="./assets/img/pic3.jpg" alt="paisagem--3">
+                    <img src="./assets/img/pic1.jpg" alt="paisagem--3">
                 </figure>
                 <figcaption class="banner--description">
                     <h3>Lorem ipsum dolor sit amet</h3>
@@ -66,7 +66,7 @@
             </div>
         </section>
 
-        <section class="c-wrapper--item flex--container">
+        <section class="c-wrapper--item flex--container" id="2">
             <div class="flex--item">
                 <h2 class="subtitles">categorias</h2>
                 <p>Lorem ipsum dolor sit amet consectetur.</p>
@@ -75,7 +75,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur.</p>
                 <p>Lorem ipsum dolor sit amet consectetur.</p>
             </div>
-            <div class="flex--item">
+            <div class="flex--item" id="3">
                 <h2 class="subtitles">mais visitados</h2>
                 <ul class="icons--galery">
                    <li><img src="./assets/img/icons/icons8-css3.svg" alt="css"></li>
@@ -89,7 +89,7 @@
                    <li><img src="./assets/img/icons/icons8-css3.svg" alt="css"></li>
                 </ul>
             </div>
-            <div class="flex--item">
+            <div class="flex--item" id="4">
                 <h2 class="subtitles">tags</h2>
                 <p>Lorem ipsum dolor sit amet consectetur</p>
                 <p>Lorem ipsum dolor sit amet consectetur</p>
@@ -103,21 +103,21 @@
     
     <section class="cards--container">
         <div class="card--item">
-            <img src="./assets/img/pic4.jpg" alt="">
+            <img src="./assets/img/pic1.jpg" alt="">
             <h3>Titulo</h3>
         </div>
         <div class="card--item">
-            <img src="./assets/img/pic4.jpg" alt="">
+            <img src="./assets/img/pic1.jpg" alt="">
             <h3>Titulo</h3>
         </div>
         <div class="card--item">
-            <img src="./assets/img/pic4.jpg" alt="">
+            <img src="./assets/img/pic1.jpg" alt="">
             <h3>Titulo</h3>
         </div>
     </section>
     
-    <footer>
-        <span>TOP</span>
+    <footer id="5">
+        <span><a href="#Home">TOP</a></span>
         <nav>
             <ul class="footer--nav">
                 <li>Email</li>
@@ -127,6 +127,7 @@
                 <li>Contatos</li>
             </ul>
         </nav>
+        <span class="copyright">&copy<a href="https://github.com/RobsonMT">Robson.MT</a></span>
     </footer>
 
     <script src="./assets/js/script.js"></script>
