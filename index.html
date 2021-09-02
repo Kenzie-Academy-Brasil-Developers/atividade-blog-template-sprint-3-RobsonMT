@@ -12,7 +12,7 @@
 <body>
     <header id="Home">
         <figure>
-            <img class="logo" src="./assets/img/logo.png" alt="">
+            <img class="logo" src="./assets/img/icons/logo.png" alt="">
         </figure>
         <nav>
             <ul class="nav--menu">
@@ -23,49 +23,101 @@
                 <li>Contatos</li>
             </ul>
         </nav>
+        <span>
+            <img class="menu--icon" src="./assets/img/icons/menu.png" alt="menu" onclick="openMenu()">  
+        </span>
     </header>
 
     <main>
-        <img class="bg--image" src="./assets/img/pic1.jpg" alt="paisagem--1">
+        <aside>    
+            <div id="menu-area">
+                <ul class="menu-area--list">
+                    <li><img src="./assets/img/icons/close.svg" class="back" onclick="openMenu()"></li>
+                    <li><a href="#"></a>existinng</li>
+                    <li><a href="#"></a>use</li>
+                    <li><a href="#"></a>trade</li>
+                    <li><a href="#"></a>cybertruck</li>
+                    <li><a href="#"></a>roadster</li>
+                    <li><a href="#"></a>semi</li>
+                </ul>
+            </div>
+        </aside> 
     </main>
 
-        <section>
-            <div>
-                <figure>
+    <div class="container--wrapper">
+        <section class="c-wrapper--item container--banner">
+            <div class="banner--item">
+                <figure class="banner--img--area">
                     <img src="./assets/img/pic2.jpg" alt="paiagem">
                 </figure>
-                <figcaption>
+                <figcaption class="banner--description">
                     <h3>Lorem ipsum dolor sit amet</h3>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat culpa omnis beatae illo officiis ad dolores fuga nam atque dolorum fugit temporibus esse dolore praesentium sequi, amet non tempora natus!
                 </figcaption>
             </div>
-            <div class="">
-                <figure>
+            <div class="banner--item">
+                <figure class="banner--img--area">
                     <img src="./assets/img/pic3.jpg" alt="paisagem--3">
                 </figure>
-                <figcaption>
+                <figcaption class="banner--description">
                     <h3>Lorem ipsum dolor sit amet</h3>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat culpa omnis beatae illo officiis ad dolores fuga nam atque dolorum fugit temporibus esse dolore praesentium sequi, amet non tempora natus!
                 </figcaption>
             </div>
         </section>
-        <section class="cards--container">
-            <div class="card--item">
-                <img src="./assets/img/pic4.jpg" alt="">
-                <h3>Titulo</h3>
+
+        <section class="c-wrapper--item flex--container">
+            <div class="flex--item">
+                <h2 class="subtitles">categorias</h2>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
             </div>
-            <div class="card--item">
-                <img src="./assets/img/pic4.jpg" alt="">
-                <h3>Titulo</h3>
+            <div class="flex--item">
+                <h2 class="subtitles">mais visitados</h2>
+                <ul class="icons--galery">
+                   <li><img src="./assets/img/icons/icons8-css3.svg" alt="css"></li>
+                   <li><img src="./assets/img/icons/icons8-css3.svg" alt="css"></li>
+                   <li><img src="./assets/img/icons/icons8-css3.svg" alt="css"></li>
+                   <li><img src="./assets/img/icons/icons8-css3.svg" alt="css"></li>
+                   <li><img src="./assets/img/icons/icons8-css3.svg" alt="css"></li>
+                   <li><img src="./assets/img/icons/icons8-css3.svg" alt="css"></li>
+                   <li><img src="./assets/img/icons/icons8-css3.svg" alt="css"></li>
+                   <li><img src="./assets/img/icons/icons8-css3.svg" alt="css"></li>
+                   <li><img src="./assets/img/icons/icons8-css3.svg" alt="css"></li>
+                </ul>
             </div>
-            <div class="card--item">
-                <img src="./assets/img/pic4.jpg" alt="">
-                <h3>Titulo</h3>
+            <div class="flex--item">
+                <h2 class="subtitles">tags</h2>
+                <p>Lorem ipsum dolor sit amet consectetur</p>
+                <p>Lorem ipsum dolor sit amet consectetur</p>
+                <p>Lorem ipsum dolor sit amet consectetur</p>
+                <p>Lorem ipsum dolor sit amet consectetur</p>
+                <p>Lorem ipsum dolor sit amet consectetur</p>
             </div>
         </section>
-        
 
+    </div>
+    
+    <section class="cards--container">
+        <div class="card--item">
+            <img src="./assets/img/pic4.jpg" alt="">
+            <h3>Titulo</h3>
+        </div>
+        <div class="card--item">
+            <img src="./assets/img/pic4.jpg" alt="">
+            <h3>Titulo</h3>
+        </div>
+        <div class="card--item">
+            <img src="./assets/img/pic4.jpg" alt="">
+            <h3>Titulo</h3>
+        </div>
+    </section>
+    
     <footer>
+        <span>TOP</span>
         <nav>
             <ul class="footer--nav">
                 <li>Email</li>
@@ -76,5 +128,7 @@
             </ul>
         </nav>
     </footer>
+
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
